@@ -1,0 +1,220 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background: #ffffff;
+}
+
+/* Header Styling */
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: #ffffff;
+    padding: 2rem 9%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+  }
+  
+  header .logo{
+    font-size: 3rem;
+    color: #333;
+    font-weight: bolder;
+  }
+  
+  header .logo span{
+    color:rgb(7, 27, 5);
+  }
+  
+  header .navbar a{
+    font-size: 23px;
+    font-weight: 200;
+    font-style: normal;
+    padding:0 1.5rem;
+    color: #000000;
+    font-family: "Poppins", serif;
+  }
+  
+  header .navbar a:hover{
+    color: #27bc16;
+    border-radius: 15px;
+  }
+  
+  header .icons a{
+    font-size: 23px;
+    font-weight: 100;
+    font-style: normal;
+    color: #333;
+    margin-left: 1.5rem;
+    font-family: "Poppins", serif;
+  }
+  
+  header .icons a:hover{
+    color: #27bc16;
+    border-radius: 15px;
+  }
+  
+  header #toggler{
+    display: none;
+  }
+  
+  header .fa-bars{
+    font-size: 50px;
+    font-weight: 100;
+    font-style: normal;
+    color: #000000;
+    border-radius: .5rem;
+    padding: .5rem 1.5rem;
+    cursor: pointer;
+    border: .1rem solid rgba(0,0,0,.3);
+    display: none;
+    font-family: "Poppins", serif;
+  }
+
+/* Section Styling */
+section {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    padding: 80px 100px;
+    color: rgb(0, 0, 0);
+}
+
+/* Container Styling */
+.container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main-title {
+    font-size: 4em;
+    margin-bottom: 50px;
+    margin-top: 100px;
+}
+
+/* Content Styling */
+.content {
+    position: relative;
+    width: 1150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content .image {
+    position: relative;
+    width: 800px;
+    height: 400px;
+    overflow: hidden;
+}
+
+.content .image img {
+    z-index: 120;
+    position: absolute;
+    top: 0;
+    left: 80px;
+    width: 80%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.content .text-box {
+    z-index: 222;
+    background: rgba(130, 238, 118, 0.4); /* Semi-transparent background */
+    backdrop-filter: blur(20px); /* Blurs the content behind the box */
+    padding: 40px;
+    max-width: 400px;
+    border: 1px solid rgba(171, 248, 99, 0.6); /* Slightly transparent border */
+    border-radius: 10px;
+    transform: translate(-120px, 50px);
+    box-shadow: 10px 10px 15px rgba(90, 88, 88, 0.3); /* Softer shadow */
+    height: 270px;
+}
+
+.content .text-box h3 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+section {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    padding: 80px 100px;
+    color: rgb(0, 0, 0);
+}
+
+/* Container Styling */
+.container2 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main-title {
+    font-size: 4em;
+    margin-bottom: 50px;
+    margin-top: 100px;
+}
+
+/* Content Styling */
+.content2 {
+    position: relative;
+    width: 1150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content2 .image2 {
+    position: relative;
+    width: 800px;
+    height: 400px;
+    overflow: hidden;
+}
+
+.content2 .image2 img {
+    z-index: 120;
+    position: absolute;
+    top: 0;
+    left: 80px;
+    width: 80%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.content2 .text-box2 {
+    z-index: 222;
+    background: rgba(130, 238, 118, 0.4); /* Semi-transparent background */
+    backdrop-filter: blur(20px); /* Blurs the content behind the box */
+    padding: 40px;
+    max-width: 400px;
+    border: 1px solid rgba(171, 248, 99, 0.6); /* Slightly transparent border */
+    border-radius: 10px;
+    transform: translate(-120px, 50px);
+    box-shadow: 10px 10px 15px rgba(90, 88, 88, 0.3); /* Softer shadow */
+    height: 270px;
+}
+
+.content2 .text-box2 h3 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
