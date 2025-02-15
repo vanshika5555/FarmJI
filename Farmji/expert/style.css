@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+html{
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+  scroll-padding-top: 6rem;
+  overflow-x: hidden;
+}
+
+header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: #ffffff;
+  padding: 2rem 9%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 1000;
+  box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+}
+
+header .logo{
+  font-size: 3rem;
+  color: #333;
+  font-weight: bolder;
+}
+
+header .logo span{
+  color:rgb(7, 27, 5);
+}
+
+header .navbar a{
+  font-size: 23px;
+  font-weight: 200;
+  font-style: normal;
+  padding:0 1.5rem;
+  color: #000000;
+}
+
+header .navbar a:hover{
+  color: #27bc16;
+  border-radius: 15px;
+}
+
+header .icons a{
+  font-size: 23px;
+  font-weight: 100;
+  font-style: normal;
+  color: #333;
+  margin-left: 1.5rem;
+}
+
+header .icons a:hover{
+  color: #27bc16;
+  border-radius: 15px;
+}
+
+header #toggler{
+  display: none;
+}
+
+header .fa-bars{
+  font-size: 50px;
+  font-weight: 100;
+  font-style: normal;
+  color: #000000;
+  border-radius: .5rem;
+  padding: .5rem 1.5rem;
+  cursor: pointer;
+  border: .1rem solid rgba(0,0,0,.3);
+  display: none;
+}
+
+.box-header {
+  margin-top: 80px;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-deck {
+  background-color: #ffffff; /* light gray background */
+  border: 1px solid #B0E0AB; /* light gray border */
+  padding: 7px; /* add some padding */
+  border-radius: 5px; /* rounded corners */
+  justify-content: space-between;
+  grid-gap: 10px;
+  margin-left: 10px; /* add a margin to the left of each card deck except the first one */
+}
+
+.inventory-heading {
+  text-align: center; /* Aligns the text to the center */
+  margin: 0;         /* Removes default margin, if any */
+  padding: 20px;     /* Optional: adds some padding around the heading */
+}
+
+ /*footer*/
+
+ .footer {
+  background-color: #D3FDD0;
+  color: #000000;
+  padding: 40px 0;
+  text-align: left;
+  width: 100%; /* added to make the footer take up the full width */
+  margin: 0 auto; /* added to center the footer horizontally */
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.footer h2 {
+  font-family: "Poppins", serif;
+font-weight: 200;
+font-style: normal;
+  margin-bottom: 20px;
+}
+
+.footer p, .footer ul, .footer li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  line-height: 1.8;
+  font-family: "Poppins", serif;
+font-weight: 200;
+font-style: normal;
+font-size: 12px;
+}
+
+.footer-about, .footer-links, .footer-contact, .footer-social {
+  flex: 1;
+  padding-left: 30px;
+  min-width: 200px;
+  margin-bottom: 30px;
+}
+
+.footer-links ul li a {
+  margin-left: auto;
+  color: #000000;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.footer-links ul li a:hover {
+  color: #27bc16;
+}
+
+.footer-contact ul li {
+  margin-bottom: 10px;
+}
+
+.footer-social ul {
+  display: flex;
+  align-items: center;
+}
+
+.footer-social ul li {
+  margin-right: 15px;
+}
+
+.footer-social ul li a {
+  color: #000000;
+  text-decoration: none;
+  transition: color 0.3s;
+  font-size: 32px;
+  font-family: "Poppins", serif;
+font-weight: 200;
+font-style: normal;
+}
+
+.footer-social ul li a:hover {
+  color: #27bc16;
+}
+
+.footer-bottom {
+  text-align: center;
+  padding: 20px 0;
+  background-color: #B0E0AB;
+  margin-top: 20px;
+  width: 100%; /* added to make the footer bottom take up the full width */
+}
+
+.footer-bottom p {
+  margin: 0;
+  font-size: 14px;
+}
