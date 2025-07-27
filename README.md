@@ -46,6 +46,16 @@ Indian farmers are the backbone of our economy, yet many lack access to the tool
 - Create a connected farming community  
 
 ---
+## 🛠 Tech Stack
+
+| Layer       | Technologies                             |
+|-------------|------------------------------------------|
+| Frontend    | HTML, CSS, JavaScript                    |
+| Backend     | PHP, MySQL                               |
+| UI/UX Tools | Figma (UI Design), Canva (Visuals)       |
+| Dev Tools   | Git, GitHub                              |
+
+---
 
 ## 📸 Project Snapshots
 
@@ -59,16 +69,7 @@ Indian farmers are the backbone of our economy, yet many lack access to the tool
 
 ---
 
-## 🛠 Tech Stack
 
-| Layer       | Technologies                             |
-|-------------|------------------------------------------|
-| Frontend    | HTML, CSS, JavaScript                    |
-| Backend     | PHP, MySQL                               |
-| UI/UX Tools | Figma (UI Design), Canva (Visuals)       |
-| Dev Tools   | Git, GitHub                              |
 
----
 
-## 📂 Project Structure
 
